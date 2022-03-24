@@ -1,0 +1,10 @@
+{application,percept,
+             [{description,"PERCEPT Erlang Concurrency Profiling Tool"},
+              {vsn,"0.9+build.115.ref44ee3ca"},
+              {modules,[percept,percept_analyzer,percept_db,percept_graph,
+                        percept_html,percept_image,percept_profile]},
+              {registered,[percept_db,percept_port]},
+              {applications,[kernel,stdlib,egd]},
+              {env,[]},
+              {runtime_dependencies,["stdlib-2.0","kernel-3.0","inets-5.10",
+                                     "erts-9.0"]}]}.
