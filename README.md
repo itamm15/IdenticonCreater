@@ -4,7 +4,7 @@
 
 ## Installation
 
-Download source fails. Run code in terminal, in the direction where files were installed.
+Download source files. Run code in terminal, in the direction where files were installed.
 
 ```elixir
 iex -S mix
